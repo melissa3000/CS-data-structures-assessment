@@ -1,0 +1,21 @@
+Discussion Questions
+
+Run time:
+1. The number of animal crackers. You'd potentially need to check each cracker until you
+found the elephant.
+2. O(1), O(log n), O(n), O(n log n), O(n**2), O(2**n)
+
+Stacks and Queues
+1.1.stack, 2. queue, 3. stack
+2. 1. The line at the DMV, 2. the help queue at hackbright
+3. 1. Cleaning dirty dishes stacked in the sink, 2. taking pancakes off the stack
+
+Linked lists
+1. Nodes: each item is a node (boxes: apple, berry, cherry). Data is the name of each node (text: apple, berry, cherry). Head is apple. Tail is cherry because it points to None.
+2. Doubly linked lists have arrows pointing in both directions and can be traversed in two directions. Singly linked lists can only be traversed one way.
+3. Without a tail, you'd have to traverse the entire list to get to the last item that points to None to know where to append the new item. If a node is a tail, you could go directly to that node and append in one step instead of traversing to get to it.
+
+Trees
+1. Food, Mexican, Indian, Italian, enchiladas, tacos, burritos
+2. Food, Mexican, enchiladas, tacos, burritos, Indian, saag, tikka masala, Italian, pizza, Sicilian, New York style, Chicago style
+3. Binary search trees require each node to have no more than 2 children and the left node must be less than the parent, the right node must be greater than the parent. This rule also applies to each subsequent node. Each search cuts the data in half.
